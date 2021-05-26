@@ -6,7 +6,7 @@
       (if (sat? (solve (assert (! F))))
           "CONTINGENCY"
           "TAUTOLOGY"
-          ) "CONTRADICTION"))
+      ) "CONTRADICTION"))
 
 ; Objective, convert:
 ;            ¬(¬r → ¬(p ∧ q))
